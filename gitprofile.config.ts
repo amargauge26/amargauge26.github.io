@@ -32,7 +32,7 @@ const CONFIG = {
         {
           title: 'AI Text Summarizer',
           description: 'Flask web application implementing NLP techniques for document summarization',
-          imageUrl: 'https://via.placeholder.com/400x300?text=NLP+Summarizer',
+          imageUrl: 'https://github.com/amargauge26/amargauge26.github.io/blob/main/public/Best-Log-Analysis-Tools.jpeg?raw=true',
           link: 'https://github.com/amargauge26/ai-summarizer'
         },
         {
