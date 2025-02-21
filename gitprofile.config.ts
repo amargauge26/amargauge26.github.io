@@ -53,8 +53,7 @@ const CONFIG = {
   seo: {
     title: 'Amar Deep Singh - Data Analyst',
     description: 'B.Tech in Computer Science | Data Analytics Specialist | Machine Learning Engineer',
-    imageURL: '![Image](https://github.com/user-attachments/assets/b93a1e6c-2647-47ba-a31d-f70d482744a2
-',
+    imageURL: '',
   },
   social: {
     linkedin: 'amar0755',
