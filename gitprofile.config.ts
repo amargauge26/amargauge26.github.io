@@ -26,19 +26,19 @@ const CONFIG = {
         {
           title: 'Log Analysis Tool',
           description: 'Python-based tool analyzing server logs with 90% accuracy in pattern recognition',
-          imageUrl: 'https://via.placeholder.com/400x300?text=Log+Analysis',
+          imageUrl: 'https://github.com/amargauge26/amargauge26.github.io/blob/main/public/Best-Log-Analysis-Tools.jpeg?raw=true',
           link: 'https://github.com/amargauge26/log-analysis-tool'
         },
         {
           title: 'AI Text Summarizer',
           description: 'Flask web application implementing NLP techniques for document summarization',
-          imageUrl: 'https://github.com/amargauge26/amargauge26.github.io/blob/main/public/Best-Log-Analysis-Tools.jpeg?raw=true',
+          imageUrl: 'https://github.com/amargauge26/amargauge26.github.io/blob/main/public/text_sum.png',
           link: 'https://github.com/amargauge26/ai-summarizer'
         },
         {
           title: 'Traffic Analytics System',
           description: 'Real-time vehicle detection using OpenCV and YOLOv8 for congestion analysis',
-          imageUrl: 'https://via.placeholder.com/400x300?text=Traffic+AI',
+          imageUrl: 'https://github.com/amargauge26/amargauge26.github.io/blob/main/public/Car_counter.png',
           link: 'https://github.com/amargauge26/traffic-analytics'
         },
         {
