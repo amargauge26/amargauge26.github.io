@@ -1,6 +1,6 @@
 const CONFIG = {
   github: {
-    username: 'amargauge26', // Your GitHub username
+    username: 'amargauge26',
   },
   base: '/',
   projects: {
@@ -21,94 +21,79 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'Featured Projects',
+      header: 'Technical Projects',
       projects: [
         {
-          title: 'Project 1',
-          description: 'Advanced machine learning implementation for predictive analytics',
-          imageUrl: 'https://via.placeholder.com/400x300',
-          link: '#'
+          title: 'Log Analysis Tool',
+          description: 'Python-based tool analyzing server logs with 90% accuracy in pattern recognition',
+          imageUrl: 'https://via.placeholder.com/400x300?text=Log+Analysis',
+          link: 'https://github.com/amargauge26/log-analysis-tool'
         },
         {
-          title: 'Project 2',
-          description: 'Full-stack e-commerce platform with React and Node.js',
-          imageUrl: 'https://via.placeholder.com/400x300',
-          link: '#'
+          title: 'AI Text Summarizer',
+          description: 'Flask web application implementing NLP techniques for document summarization',
+          imageUrl: 'https://via.placeholder.com/400x300?text=NLP+Summarizer',
+          link: 'https://github.com/amargauge26/ai-summarizer'
         },
+        {
+          title: 'Traffic Analytics System',
+          description: 'Real-time vehicle detection using OpenCV and YOLOv8 for congestion analysis',
+          imageUrl: 'https://via.placeholder.com/400x300?text=Traffic+AI',
+          link: 'https://github.com/amargauge26/traffic-analytics'
+        },
+        {
+          title: 'Survey Rep Dashboard',
+          description: 'Power BI dashboard analyzing career decision drivers from LinkedIn data',
+          imageUrl: 'https://via.placeholder.com/400x300?text=Survey+Analysis',
+          link: 'https://github.com/amargauge26/survey-rep'
+        }
       ],
     },
   },
   seo: {
-    title: 'Amar Gauge - Portfolio',
-    description: 'Full Stack Developer | Machine Learning Engineer | Cloud Solutions Architect',
+    title: 'Amar Deep Singh - Data Analyst',
+    description: 'B.Tech in Computer Science | Data Analytics Specialist | Machine Learning Engineer',
     imageURL: '',
   },
   social: {
-    linkedin: 'your-linkedin',
-    x: 'your-x-handle',
-    website: 'https://your-portfolio.com',
-    email: 'your.email@example.com',
+    linkedin: 'amar0755',
+    leetcode: 'AMAR9XD',
+    codechef: 'amar9xd',
+    website: 'https://amargauge26.github.io',
+    email: 'amardeep.singh0755@gmail.com',
+    phone: '+91-6264065417',
   },
   resume: {
-    fileUrl: 'https://your-domain.com/resume.pdf',
+    fileUrl: 'https://your-domain.com/path-to-resume.pdf', // Upload your PDF and update URL
   },
   skills: [
     'Python',
-    'JavaScript',
-    'React',
-    'Node.js',
-    'TensorFlow',
-    'AWS',
-    'Docker',
-    'Kubernetes',
-    'PostgreSQL',
-    'MongoDB',
-    'GraphQL',
-    'TypeScript'
-  ],
-  experiences: [
-    {
-      company: 'Tech Corp Inc.',
-      position: 'Senior Software Engineer',
-      from: '2020',
-      to: 'Present',
-      companyLink: 'https://techcorp.com',
-    },
-    {
-      company: 'Startup Innovations',
-      position: 'Full Stack Developer',
-      from: '2018',
-      to: '2020',
-      companyLink: 'https://startupinnovations.com',
-    },
-  ],
-  certifications: [
-    {
-      name: 'AWS Certified Solutions Architect',
-      body: 'Amazon Web Services',
-      year: '2023',
-      link: '#'
-    },
-    {
-      name: 'Google Cloud Professional Data Engineer',
-      body: 'Google Cloud',
-      year: '2022',
-      link: '#'
-    },
+    'SQL',
+    'R',
+    'Pandas',
+    'NumPy',
+    'Matplotlib',
+    'Seaborn',
+    'Scikit-Learn',
+    'Spark',
+    'Tableau',
+    'Power BI',
+    'Machine Learning',
+    'Django',
+    'FastAPI',
+    'OpenCV',
+    'YOLOv8',
+    'Flask',
+    'NLTK',
+    'SpaCy'
   ],
   educations: [
     {
-      institution: 'University of Technology',
-      degree: 'M.S. Computer Science',
-      from: '2016',
-      to: '2018',
-    },
-    {
-      institution: 'State College',
-      degree: 'B.S. Information Technology',
-      from: '2012',
-      to: '2016',
-    },
+      institution: 'Vellore Institute of Technology',
+      degree: 'B.Tech Computer Science and Engineering',
+      from: '2021',
+      to: '2025'
+    }
   ],
   themeConfig: {
     defaultTheme: 'procyon',
