@@ -81,16 +81,45 @@ const CONFIG = {
     'Machine Learning',
     'Django',
     'FastAPI',
+    'REST APIs',
+    'Bootstrap',
     'OpenCV',
     'YOLOv8',
     'Flask',
     'NLTK',
-    'SpaCy'
+    'SpaCy',
+    'Regression',
+    'Classification',
+    'Clustering',
+    'Time Series Analysis'
+  ],
+  experiences: [
+    {
+      company: 'Skit.ai',
+      position: 'Software Engineering Intern',
+      from: 'October 2023',
+      to: 'November 2023',
+      companyLink: 'https://skit.ai/',
+    },
+    {
+      company: 'Netlink Software Private Limited',
+      position: 'Data Analytics Intern',
+      from: 'October 2024',
+      to: 'December 2024',
+      companyLink: 'https://www.netlink.com/',
+    },
+    {
+      company: 'CodesOnBytes',
+      position: 'Backend Developer Intern',
+      from: 'November 2023',
+      to: 'December 2023',
+      companyLink: 'https://www.linkedin.com/company/codesonbytes/',
+    },
   ],
   educations: [
     {
       institution: 'Vellore Institute of Technology',
-      degree: 'B.Tech Computer Science and Engineering',
+      degree: 'Bachelor of Technology in Computer Science and Engineering',
       from: '2021',
       to: '2025'
     }
@@ -119,3 +148,4 @@ const CONFIG = {
 };
 
 export default CONFIG;
+
