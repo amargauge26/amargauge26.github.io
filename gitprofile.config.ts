@@ -32,19 +32,19 @@ const CONFIG = {
         {
           title: 'AI Text Summarizer',
           description: 'Flask web application implementing NLP techniques for document summarization',
-          imageUrl: 'https://github.com/amargauge26/amargauge26.github.io/blob/main/public/Car_counter.png',
+          imageUrl: 'https://github.com/amargauge26/amargauge26.github.io/blob/main/public/text_sum.png?raw=true',
           link: 'https://github.com/amargauge26/ai-summarizer'
         },
         {
           title: 'Traffic Analytics System',
           description: 'Real-time vehicle detection using OpenCV and YOLOv8 for congestion analysis',
-          imageUrl: 'https://github.com/amargauge26/amargauge26.github.io/blob/main/public/Car_counter.png',
+          imageUrl: 'https://github.com/amargauge26/amargauge26.github.io/blob/main/public/Car_counter.png?raw=true',
           link: 'https://github.com/amargauge26/traffic-analytics'
         },
         {
           title: 'Survey Rep Dashboard',
           description: 'Power BI dashboard analyzing career decision drivers from LinkedIn data',
-          imageUrl: 'https://via.placeholder.com/400x300?text=Survey+Analysis',
+          imageUrl: 'https://github.com/amargauge26/amargauge26.github.io/blob/main/public/Surgeyrep.png?raw=true',
           link: 'https://github.com/amargauge26/survey-rep'
         }
       ],
