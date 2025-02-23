@@ -5,7 +5,7 @@ const CONFIG = {
   base: '/',
   seo: {
     title: 'Amar Deep Singh - Data Analyst',
-    description: 'B.Tech in Computer Science | Data Analytics Specialist | Machine Learning Engineer',
+    description: 'B.Tech in Computer Science | Data Analytics Specialist | Machine Learning Engineer | Backend Developer',
     imageURL: '',
   },
   social: {
@@ -17,7 +17,7 @@ const CONFIG = {
     phone: '+91-6264065417',
   },
   resume: {
-    fileUrl: 'https://your-domain.com/path-to-resume.pdf', // Upload your PDF and update URL
+    fileUrl: 'https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/50517583/b8c79af6-af3f-4823-8843-262ad0b50eb7/Amardeep_data_analyst-1.pdf', // Upload your PDF and update URL
   },
   skills: [
     'Python',
@@ -101,24 +101,8 @@ const CONFIG = {
     },
   },
   enablePWA: true,
-  projects: {
-    github: {
-      display: true,
-      header: 'GitHub Projects',
-      mode: 'automatic',
-      automatic: {
-        sortBy: 'stars',
-        limit: 8,
-        exclude: {
-          forks: false,
-          projects: [],
-        },
-      },
-      manual: {
-        projects: [],
-      },
-    },
-    external: {
+   projects: {
+     external: {
       header: 'Technical Projects',
       projects: [
         {
@@ -146,6 +130,22 @@ const CONFIG = {
           link: 'https://github.com/amargauge26/survey-rep'
         }
       ],
+    },
+    github: {
+      display: true,
+      header: 'GitHub Projects',
+      mode: 'automatic',
+      automatic: {
+        sortBy: 'stars',
+        limit: 8,
+        exclude: {
+          forks: false,
+          projects: [],
+        },
+      },
+      manual: {
+        projects: [],
+      },
     },
   },
 };
