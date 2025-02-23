@@ -102,6 +102,22 @@ const CONFIG = {
   },
   enablePWA: true,
    projects: {
+        github: {
+      display: true,
+      header: 'GitHub Projects',
+      mode: 'automatic',
+      automatic: {
+        sortBy: 'stars',
+        limit: 8,
+        exclude: {
+          forks: false,
+          projects: [],
+        },
+      },
+      manual: {
+        projects: [],
+      },
+    },
      external: {
       header: 'Technical Projects',
       projects: [
@@ -131,22 +147,7 @@ const CONFIG = {
         }
       ],
     },
-    github: {
-      display: true,
-      header: 'GitHub Projects',
-      mode: 'automatic',
-      automatic: {
-        sortBy: 'stars',
-        limit: 8,
-        exclude: {
-          forks: false,
-          projects: [],
-        },
-      },
-      manual: {
-        projects: [],
-      },
-    },
+
   },
 };
 
