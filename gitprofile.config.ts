@@ -99,6 +99,32 @@ const CONFIG = {
 
 
   },
+  certifications: [
+    {
+      name: 'Deloitte Australia Data Analytics Job Simulation',
+      body: 'Forage',
+      year: 'February 2025',
+      link: 'https://www.theforage.com/',
+    },
+    {
+      name: 'Machine Learning and Artificial Intelligence',
+      body: 'SmartInternz',
+      year: '2023', // Update year if different
+      link: 'https://smartinternz.com/',
+    },
+    {
+      name: 'Introduction to SQL',
+      body: 'Simplilearn',
+      year: '2025', // Update year if different
+      link: 'https://smartinternz.com/',
+    },
+    {
+      name: 'Data Science-Validation tes',
+      body: 'Cutshort',
+      year: '2025', // Update year if different
+      link: 'https://smartinternz.com/',
+    }
+  ],
   skills: [
     'Python',
     'SQL',
