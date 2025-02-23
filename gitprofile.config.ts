@@ -8,7 +8,7 @@ const CONFIG = {
     description: 'B.Tech in Computer Science | Data Analytics Specialist | Machine Learning Engineer | Backend Developer',
     imageURL: '',
   },
-  social: {
+   social: {
     linkedin: 'amar0755',
     leetcode: 'AMAR9XD',
     codechef: 'amar9xd',
@@ -16,36 +16,6 @@ const CONFIG = {
     email: 'amardeep.singh0755@gmail.com',
     phone: '+91-6264065417',
   },
-  resume: {
-    fileUrl: 'https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/50517583/b8c79af6-af3f-4823-8843-262ad0b50eb7/Amardeep_data_analyst-1.pdf', // Upload your PDF and update URL
-  },
-  skills: [
-    'Python',
-    'SQL',
-    'R',
-    'Pandas',
-    'NumPy',
-    'Matplotlib',
-    'Seaborn',
-    'Scikit-Learn',
-    'Spark',
-    'Tableau',
-    'Power BI',
-    'Machine Learning',
-    'Django',
-    'FastAPI',
-    'REST APIs',
-    'Bootstrap',
-    'OpenCV',
-    'YOLOv8',
-    'Flask',
-    'NLTK',
-    'SpaCy',
-    'Regression',
-    'Classification',
-    'Clustering',
-    'Time Series Analysis'
-  ],
   experiences: [
     {
       company: 'Skit.ai',
@@ -80,44 +50,7 @@ const CONFIG = {
       to: '2025'
     }
   ],
-    themeConfig: {
-    defaultTheme: 'procyon',
-    disableSwitch: false,
-    respectPrefersColorScheme: true,
-    displayAvatarRing: true,
-    themes: [
-      'light',
-      'dark',
-      'procyon'
-    ],
-    customTheme: {
-      primary: '#219aaf',
-      secondary: '#fc055b',
-      accent: '#e8d03a',
-      neutral: '#2A2730',
-      'base-100': '#E3E3ED',
-      '--rounded-box': '2rem',
-      '--rounded-btn': '1.5rem',
-    },
-  },
-  enablePWA: true,
-   projects: {
-        github: {
-      display: true,
-      header: 'GitHub Projects',
-      mode: 'automatic',
-      automatic: {
-        sortBy: 'stars',
-        limit: 8,
-        exclude: {
-          forks: false,
-          projects: [],
-        },
-      },
-      manual: {
-        projects: [],
-      },
-    },
+  projects: {
      external: {
       header: 'Technical Projects',
       projects: [
@@ -147,8 +80,79 @@ const CONFIG = {
         }
       ],
     },
+        github: {
+      display: true,
+      header: 'GitHub Projects',
+      mode: 'automatic',
+      automatic: {
+        sortBy: 'stars',
+        limit: 8,
+        exclude: {
+          forks: false,
+          projects: [],
+        },
+      },
+      manual: {
+        projects: [],
+      },
+    },
+
 
   },
+  skills: [
+    'Python',
+    'SQL',
+    'R',
+    'Pandas',
+    'NumPy',
+    'Matplotlib',
+    'Seaborn',
+    'Scikit-Learn',
+    'Spark',
+    'Tableau',
+    'Power BI',
+    'Machine Learning',
+    'Django',
+    'FastAPI',
+    'REST APIs',
+    'Bootstrap',
+    'OpenCV',
+    'YOLOv8',
+    'Flask',
+    'NLTK',
+    'SpaCy',
+    'Regression',
+    'Classification',
+    'Clustering',
+    'Time Series Analysis'
+  ],
+  resume: {
+    fileUrl: 'https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/50517583/b8c79af6-af3f-4823-8843-262ad0b50eb7/Amardeep_data_analyst-1.pdf', // Upload your PDF and update URL
+  },
+
+    themeConfig: {
+    defaultTheme: 'procyon',
+    disableSwitch: false,
+    respectPrefersColorScheme: true,
+    displayAvatarRing: true,
+    themes: [
+      'light',
+      'dark',
+      'procyon'
+    ],
+    customTheme: {
+      primary: '#219aaf',
+      secondary: '#fc055b',
+      accent: '#e8d03a',
+      neutral: '#2A2730',
+      'base-100': '#E3E3ED',
+      '--rounded-box': '2rem',
+      '--rounded-btn': '1.5rem',
+    },
+  },
+  enablePWA: true,
+
+
 };
 
 export default CONFIG;
