@@ -104,25 +104,25 @@ const CONFIG = {
       name: 'Deloitte Australia Data Analytics Job Simulation',
       body: 'Forage',
       year: 'February 2025',
-      link: 'https://www.theforage.com/',
+      link: 'https://drive.google.com/file/d/1fLOYM-YioJcmgjdzDdtvHHyFC4vRMDsA/view?usp=sharing',
     },
     {
       name: 'Machine Learning and Artificial Intelligence',
       body: 'SmartInternz',
       year: '2023', // Update year if different
-      link: 'https://smartinternz.com/',
+      link: 'https://drive.google.com/file/d/1-t_m0IOrTHV19aiZGVWBhqfiZMRyoScS/view?usp=sharing',
     },
     {
       name: 'Introduction to SQL',
       body: 'Simplilearn',
       year: '2025', // Update year if different
-      link: 'https://smartinternz.com/',
+      link: 'https://drive.google.com/file/d/1FVgmGfSmA37Mmx5apLYGYCjgAr37SghG/view?usp=sharing',
     },
     {
       name: 'Data Science-Validation tes',
       body: 'Cutshort',
       year: '2025', // Update year if different
-      link: 'https://smartinternz.com/',
+      link: 'https://drive.google.com/file/d/1pkEFwl3Yk6nkMpzFweqD85OSG6yjfjde/view?usp=sharing',
     }
   ],
   skills: [
@@ -153,7 +153,7 @@ const CONFIG = {
     'Time Series Analysis'
   ],
   resume: {
-    fileUrl: 'https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/50517583/b8c79af6-af3f-4823-8843-262ad0b50eb7/Amardeep_data_analyst-1.pdf', // Upload your PDF and update URL
+    fileUrl: 'https://drive.google.com/file/d/1mWdtQys-Bj6JiHbWU1JVE08HUAHmF2wt/view?usp=drive_link', // Upload your PDF and update URL
   },
 
     themeConfig: {
